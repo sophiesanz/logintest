@@ -6,6 +6,7 @@ We will use a simple cypress application. To check any cypress dependencies plea
 
 
 ## 2. Usage
+- Please ask for the ```cypress.env.json``` file and paste it in the root of the project. 
 
 - To run the cypress test please use the command line below. You will get a pop up with the cypress test runner.
   ```
@@ -16,8 +17,6 @@ We will use a simple cypress application. To check any cypress dependencies plea
 - Once Cypress finish the tests it will show a report with the specs and a checkmark that shows that the test passed. Hovering the mouse for each step let you travel time to different steps.
 ### 3. Important Files
 
-- cypress/fixtures: credentials data used for our test
-    - loginData.fixture.json
 - cypress/integration/login: automation script to validate the requested scenario
     - login.spec.js
 - cypress/integration: feature file with the provided scenario written in Gherking language
