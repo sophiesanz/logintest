@@ -1,0 +1,6 @@
+{
+    "testFiles": "**/*.feature",
+    "baseUrl": "https://app.laserhub.com",
+    "viewportHeight": 768,
+    "viewportWidth": 1366
+}
